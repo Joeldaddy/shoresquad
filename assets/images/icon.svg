@@ -1,0 +1,8 @@
+<!-- Simple SVG icon placeholder -->
+<svg width="192" height="192" viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="96" cy="96" r="96" fill="#00796b"/>
+  <path d="M48 96c0-26.5 21.5-48 48-48s48 21.5 48 48c0 26.5-21.5 48-48 48s-48-21.5-48-48z" fill="#e0f7fa"/>
+  <path d="M72 84c-4.4 0-8 3.6-8 8v16c0 4.4 3.6 8 8 8h48c4.4 0 8-3.6 8-8V92c0-4.4-3.6-8-8-8H72z" fill="#ffab40"/>
+  <circle cx="80" cy="100" r="4" fill="#00796b"/>
+  <circle cx="112" cy="100" r="4" fill="#00796b"/>
+</svg>

@@ -4,7 +4,12 @@
   "description": "A map app to rally crews for beach cleanups, track weather, and connect eco-conscious individuals.",
   "main": "index.html",
   "scripts": {
-    "start": "live-server"
+    "start": "live-server --port=3000 --host=localhost",
+    "dev": "live-server --port=3000 --host=localhost --open",
+    "build": "echo 'No build process needed for static site'",
+    "test": "echo 'Tests coming soon'",
+    "lint": "echo 'Linting coming soon'",
+    "deploy": "echo 'Ready for deployment to GitHub Pages or Netlify'"
   },
   "keywords": [
     "beach",
@@ -14,11 +19,19 @@
     "weather",
     "social"
   ],
-  "author": "Your Name",
+  "author": "Joel Daddy",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Joeldaddy/shoresquad.git"
+  },
+  "homepage": "https://joeldaddy.github.io/shoresquad",
+  "bugs": {
+    "url": "https://github.com/Joeldaddy/shoresquad/issues"
+  },
   "dependencies": {
-    "leaflet": "^1.7.1",
-    "axios": "^0.21.1"
+    "leaflet": "^1.9.4",
+    "axios": "^1.6.0"
   },
   "devDependencies": {
     "live-server": "^1.2.1"
