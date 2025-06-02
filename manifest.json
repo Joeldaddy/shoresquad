@@ -1,0 +1,93 @@
+{
+  "name": "ShoreSquad - Beach Cleanup Community",
+  "short_name": "ShoreSquad",
+  "description": "Rally your crew, track weather, and hit the next beach cleanup with our dope map app!",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#e0f7fa",
+  "theme_color": "#00796b",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "categories": ["lifestyle", "social", "utilities"],
+  "icons": [
+    {
+      "src": "assets/images/icon-72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "assets/images/icon-96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "assets/images/icon-128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "assets/images/icon-144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "assets/images/icon-152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "assets/images/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "assets/images/icon-384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "assets/images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Find Cleanups",
+      "short_name": "Find",
+      "description": "Find beach cleanup events near you",
+      "url": "/#map",
+      "icons": [{ "src": "assets/images/icon-96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Check Weather",
+      "short_name": "Weather",
+      "description": "Check current weather conditions",
+      "url": "/#weather",
+      "icons": [{ "src": "assets/images/icon-96.png", "sizes": "96x96" }]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "assets/images/screenshot-wide.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "assets/images/screenshot-narrow.png",
+      "sizes": "720x1280",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ]
+}
